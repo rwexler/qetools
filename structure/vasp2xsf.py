@@ -30,7 +30,7 @@ with open(filename, "r") as vasp :
     coords = np.array(coords).astype(float)
     
     # make xsf file
-    with open(filename[:9] + "xsf", "w") as xsf :
+    with open(filename[:-11] + "xsf", "w") as xsf :
         xsf.write("CRYSTAL\nPRIMVEC\n")
         for row in lvs :
             xsf.write("{: 14.9f} {: 13.9f} {: 13.9f}\n".format(row[0], row[1], row[2]))
