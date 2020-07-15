@@ -13,7 +13,7 @@ Main program
     """
     with open('OUTCAR') as f:
         for line in f:
-            if 'energy(sigma->0)0' in line:
+            if 'energy(sigma->0)' in line:
                 energy = line.split()[-1]
     print(energy)
 
