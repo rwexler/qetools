@@ -12,8 +12,7 @@ def main():
 Main program
     """
     f = open('OUTCAR').readlines()
-    energies = [line.split()[-1] for line in f if 'energy(sigma->0)' in line]
-    print(energies[-1])
+    print([x.split()[-1] for x in f if 'energy(sigma->0)' in x][-1])
 
 
 if __name__ == '__main__':
