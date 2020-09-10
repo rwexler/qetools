@@ -2,16 +2,23 @@
   <dictionary name="robertwexler">
     <words>
       <w>alat</w>
+      <w>bfgs</w>
       <w>celldm</w>
       <w>csvfile</w>
       <w>dataframe</w>
       <w>dropbox</w>
+      <w>graphene</w>
+      <w>lowdin</w>
       <w>multiline</w>
       <w>nions</w>
+      <w>nscf</w>
       <w>outcar</w>
       <w>pdos</w>
+      <w>primcoord</w>
+      <w>primvec</w>
       <w>qetools</w>
       <w>robertwexler</w>
+      <w>silicene</w>
       <w>tqdm</w>
       <w>vasp</w>
       <w>wexler</w>
