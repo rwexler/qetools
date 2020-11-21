@@ -19,10 +19,10 @@ Main program
         dname = "{:02d}".format(nk)
         if not os.path.exists(dname):
             os.makedirs(dname)
-        copyfile("INCAR", dname)
-        copyfile("POSCAR", dname)
-        copyfile("POTCAR", dname)
-        copyfile("runscript", dname)
+        copyfile("INCAR", dname + "/INCAR")
+        copyfile("POSCAR", dname + "/POSCAR")
+        copyfile("POTCAR", dname + "/POTCAR")
+        copyfile("runscript", dname + "/runscript")
         os.chdir(dname)
         with open("KPOINTS", "w") as f_new:
             with open(fname_old) as f_old:
