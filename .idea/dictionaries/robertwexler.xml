@@ -8,12 +8,14 @@
       <w>dataframe</w>
       <w>dropbox</w>
       <w>graphene</w>
+      <w>incar</w>
       <w>lowdin</w>
       <w>multiline</w>
       <w>nions</w>
       <w>nscf</w>
       <w>outcar</w>
       <w>pdos</w>
+      <w>potcar</w>
       <w>primcoord</w>
       <w>primvec</w>
       <w>qetools</w>
