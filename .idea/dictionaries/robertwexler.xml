@@ -7,12 +7,14 @@
       <w>csvfile</w>
       <w>dataframe</w>
       <w>dropbox</w>
+      <w>encut</w>
       <w>graphene</w>
       <w>incar</w>
       <w>lowdin</w>
       <w>multiline</w>
       <w>nions</w>
       <w>nscf</w>
+      <w>oszicar</w>
       <w>outcar</w>
       <w>pdos</w>
       <w>potcar</w>

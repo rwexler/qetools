@@ -1,4 +1,4 @@
-""" Program for performing VASP k-point convergence tests """
+""" Program for performing VASP KPOINTS convergence tests """
 
 __author__ = 'Robert B. Wexler'
 __email__ = 'robertowexler@gmail.com'
@@ -30,7 +30,7 @@ Main program
                     for line in f_old:
                         f_new.write(line)
                         break
-                f_new.write("{0:3d} {0:2d} {0:2d}".format(nk))
+                f_new.write("{0:3d} {0:2d} {0:2d}\n".format(nk))
                 next(f_old)
                 for line in f_old:
                     f_new.write(line)
