@@ -33,6 +33,9 @@ Main program
                 f_new.write("{} 0 0\n".format(a))
                 f_new.write("0 {} 0\n".format(a + 0.5))
                 f_new.write("0 0 {}\n".format(a + 1))
+                for i in range(3):
+                    for line in f_old:
+                        break
                 for line in f_old:
                     f_new.write(line)
         subprocess.run(["qsub", "runscript"])
